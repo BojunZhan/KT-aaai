@@ -1,0 +1,24 @@
+wandb_version: 1
+
+dataset_name:
+  value: assist2009
+dropout:
+  value: 0.05
+emb_size:
+  value: 64
+emb_type:
+  value: qid
+fixed_number:
+  value: 1
+fold:
+  value: '2'
+learning_rate:
+  value: 0.001
+model_name:
+  value: dkt
+save_dir:
+  value: models/dkt_tiaocan_assist2009
+seed:
+  value: 3407
+train_ratio:
+  value: 1
